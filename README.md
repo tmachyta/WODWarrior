@@ -19,7 +19,7 @@ Make sure you have the following software installed on your system:
 
 ### Installation
 - First of all, you should made your fork
-- Second, clink on Code<> and clone link, after that open your Intellij Idea, click on Get from VCS
+- Second, clink on Code<> and clone link, after that open your Xcode, click on Get from VCS
 - past link, which you clone later
 
 # Features 🤌:
