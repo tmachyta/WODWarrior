@@ -26,7 +26,7 @@ Make sure you have the following software installed on your system:
 
 ## 🏢 WODWarriors  🏢
 WODWarriors provides a different functions. 
-- Create a new training program - Create a new training seciton
+- Create a new training program
 - Create a new training seciton
 - Create exercise
 - Display all programs
