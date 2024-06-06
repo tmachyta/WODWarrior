@@ -10,23 +10,24 @@ import SwiftData
 
 @main
 struct WODWarriorApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
+    let container: ModelContainer
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabBarView()
+            // AdminPageView()
         }
-        .modelContainer(sharedModelContainer)
+        .modelContainer(container)
     }
+    
+    init() {
+        let schema = Schema([TrainingProgram.self])
+        let config = ModelConfiguration("MyTrainingProgram", schema: schema)
+        do {
+            container = try ModelContainer(for: schema, configurations: config)
+        } catch {
+            fatalError("Could not configure the container")
+        }
+        print(URL.applicationSupportDirectory.path(percentEncoded: false))
+        }
 }
