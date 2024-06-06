@@ -2,7 +2,7 @@
 # ✈🏃🏻‍♂️🏃🏻‍♂️WODWarrior✈🏃🏻‍♂️🏃🏻‍♂️
 
 # Project Description:
-WODWarrior is an intuitive iOS application designed to help fitness enthusiasts achieve their goals with personalized gym training programs/crossfit training programs. 
+WODWarrior is an intuitive iOS application using Swift Data designed to help fitness enthusiasts achieve their goals with personalized gym training programs/crossfit training programs. 
 Whether you're a beginner looking to get started or an experienced athlete aiming to reach new heights, 
 WODWarrior offers a variety of training plans to suit all fitness levels and objectives.
 
