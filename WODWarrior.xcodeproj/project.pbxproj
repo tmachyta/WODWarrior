@@ -12,6 +12,41 @@
 		933041702C11F3E4008DA6FC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330416F2C11F3E4008DA6FC /* Item.swift */; };
 		933041722C11F3E6008DA6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933041712C11F3E6008DA6FC /* Assets.xcassets */; };
 		933041752C11F3E6008DA6FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933041742C11F3E6008DA6FC /* Preview Assets.xcassets */; };
+		933041822C11FD2D008DA6FC /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041812C11FD2D008DA6FC /* CardModel.swift */; };
+		933041852C11FD56008DA6FC /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041842C11FD56008DA6FC /* SizeConstants.swift */; };
+		933041872C11FD71008DA6FC /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041862C11FD71008DA6FC /* DatePickerView.swift */; };
+		933041892C11FDA5008DA6FC /* VideoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041882C11FDA5008DA6FC /* VideoPicker.swift */; };
+		9330418C2C11FDE2008DA6FC /* AdminPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330418B2C11FDE2008DA6FC /* AdminPageView.swift */; };
+		9330418E2C11FE04008DA6FC /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330418D2C11FE04008DA6FC /* HomePageView.swift */; };
+		933041902C11FE1F008DA6FC /* ColoredProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330418F2C11FE1F008DA6FC /* ColoredProgressViewStyle.swift */; };
+		933041932C11FE4C008DA6FC /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041922C11FE4C008DA6FC /* SwipeActionIndicatorView.swift */; };
+		933041952C11FE67008DA6FC /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041942C11FE67008DA6FC /* ImageScrollingOverlay.swift */; };
+		9330419B2C11FEB3008DA6FC /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330419A2C11FEB3008DA6FC /* CardViewModel.swift */; };
+		9330419D2C11FEED008DA6FC /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330419C2C11FEED008DA6FC /* CardService.swift */; };
+		9330419F2C11FF12008DA6FC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330419E2C11FF12008DA6FC /* CardView.swift */; };
+		933041A12C11FF46008DA6FC /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041A02C11FF46008DA6FC /* CardStackView.swift */; };
+		933041A42C11FF6B008DA6FC /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041A32C11FF6B008DA6FC /* MainTabBarView.swift */; };
+		933041A82C11FF90008DA6FC /* TrainingProgramProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041A72C11FF90008DA6FC /* TrainingProgramProfileView.swift */; };
+		933041AA2C11FFAB008DA6FC /* TrainingProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041A92C11FFAB008DA6FC /* TrainingProgramView.swift */; };
+		933041AE2C11FFF3008DA6FC /* EditTrainingProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041AD2C11FFF3008DA6FC /* EditTrainingProgramView.swift */; };
+		933041B02C12000F008DA6FC /* NewTrainingProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041AF2C12000F008DA6FC /* NewTrainingProgramView.swift */; };
+		933041B22C120031008DA6FC /* TrainingProgramInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041B12C120031008DA6FC /* TrainingProgramInfoView.swift */; };
+		933041B62C12005B008DA6FC /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041B52C12005B008DA6FC /* ExerciseView.swift */; };
+		933041B82C12006F008DA6FC /* NewExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041B72C12006F008DA6FC /* NewExerciseView.swift */; };
+		933041BA2C120083008DA6FC /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041B92C120083008DA6FC /* ExerciseDetailView.swift */; };
+		933041BC2C120092008DA6FC /* ExerciseListAllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041BB2C120092008DA6FC /* ExerciseListAllView.swift */; };
+		933041BF2C1200B1008DA6FC /* TrainingSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041BE2C1200B1008DA6FC /* TrainingSectionView.swift */; };
+		933041C12C1200C3008DA6FC /* NewTrainingSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041C02C1200C3008DA6FC /* NewTrainingSectionView.swift */; };
+		933041C32C1200D6008DA6FC /* EditTrainingSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041C22C1200D6008DA6FC /* EditTrainingSectionView.swift */; };
+		933041C52C1200E6008DA6FC /* TrainingSectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041C42C1200E6008DA6FC /* TrainingSectionListView.swift */; };
+		933041C72C1200F8008DA6FC /* TrainingSectionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041C62C1200F8008DA6FC /* TrainingSectionDetailsView.swift */; };
+		933041CB2C120123008DA6FC /* TrainingProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041CA2C120123008DA6FC /* TrainingProgram.swift */; };
+		933041CD2C120132008DA6FC /* TrainingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041CC2C120132008DA6FC /* TrainingSection.swift */; };
+		933041CF2C120148008DA6FC /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041CE2C120148008DA6FC /* Exercise.swift */; };
+		933041D12C120172008DA6FC /* TrainingProgramSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041D02C120172008DA6FC /* TrainingProgramSamples.swift */; };
+		933041D32C120183008DA6FC /* TrainingSectionSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041D22C120183008DA6FC /* TrainingSectionSamples.swift */; };
+		933041D52C1201A0008DA6FC /* ExerciseSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041D42C1201A0008DA6FC /* ExerciseSamples.swift */; };
+		933041D72C1201B8008DA6FC /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933041D62C1201B8008DA6FC /* PreviewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +56,42 @@
 		9330416F2C11F3E4008DA6FC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		933041712C11F3E6008DA6FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		933041742C11F3E6008DA6FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9330417B2C11F6A3008DA6FC /* Terminal.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Terminal.sh; sourceTree = "<group>"; };
+		933041812C11FD2D008DA6FC /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		933041842C11FD56008DA6FC /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
+		933041862C11FD71008DA6FC /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		933041882C11FDA5008DA6FC /* VideoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
+		9330418B2C11FDE2008DA6FC /* AdminPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPageView.swift; sourceTree = "<group>"; };
+		9330418D2C11FE04008DA6FC /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		9330418F2C11FE1F008DA6FC /* ColoredProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredProgressViewStyle.swift; sourceTree = "<group>"; };
+		933041922C11FE4C008DA6FC /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
+		933041942C11FE67008DA6FC /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
+		9330419A2C11FEB3008DA6FC /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		9330419C2C11FEED008DA6FC /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
+		9330419E2C11FF12008DA6FC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		933041A02C11FF46008DA6FC /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
+		933041A32C11FF6B008DA6FC /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
+		933041A72C11FF90008DA6FC /* TrainingProgramProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingProgramProfileView.swift; sourceTree = "<group>"; };
+		933041A92C11FFAB008DA6FC /* TrainingProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingProgramView.swift; sourceTree = "<group>"; };
+		933041AD2C11FFF3008DA6FC /* EditTrainingProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTrainingProgramView.swift; sourceTree = "<group>"; };
+		933041AF2C12000F008DA6FC /* NewTrainingProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrainingProgramView.swift; sourceTree = "<group>"; };
+		933041B12C120031008DA6FC /* TrainingProgramInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingProgramInfoView.swift; sourceTree = "<group>"; };
+		933041B52C12005B008DA6FC /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		933041B72C12006F008DA6FC /* NewExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExerciseView.swift; sourceTree = "<group>"; };
+		933041B92C120083008DA6FC /* ExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
+		933041BB2C120092008DA6FC /* ExerciseListAllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListAllView.swift; sourceTree = "<group>"; };
+		933041BE2C1200B1008DA6FC /* TrainingSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSectionView.swift; sourceTree = "<group>"; };
+		933041C02C1200C3008DA6FC /* NewTrainingSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrainingSectionView.swift; sourceTree = "<group>"; };
+		933041C22C1200D6008DA6FC /* EditTrainingSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTrainingSectionView.swift; sourceTree = "<group>"; };
+		933041C42C1200E6008DA6FC /* TrainingSectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSectionListView.swift; sourceTree = "<group>"; };
+		933041C62C1200F8008DA6FC /* TrainingSectionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSectionDetailsView.swift; sourceTree = "<group>"; };
+		933041CA2C120123008DA6FC /* TrainingProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingProgram.swift; sourceTree = "<group>"; };
+		933041CC2C120132008DA6FC /* TrainingSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSection.swift; sourceTree = "<group>"; };
+		933041CE2C120148008DA6FC /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		933041D02C120172008DA6FC /* TrainingProgramSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingProgramSamples.swift; sourceTree = "<group>"; };
+		933041D22C120183008DA6FC /* TrainingSectionSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSectionSamples.swift; sourceTree = "<group>"; };
+		933041D42C1201A0008DA6FC /* ExerciseSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSamples.swift; sourceTree = "<group>"; };
+		933041D62C1201B8008DA6FC /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +108,7 @@
 		9330415F2C11F3E4008DA6FC = {
 			isa = PBXGroup;
 			children = (
+				9330417B2C11F6A3008DA6FC /* Terminal.sh */,
 				9330416A2C11F3E4008DA6FC /* WODWarrior */,
 				933041692C11F3E4008DA6FC /* Products */,
 			);
@@ -53,6 +125,10 @@
 		9330416A2C11F3E4008DA6FC /* WODWarrior */ = {
 			isa = PBXGroup;
 			children = (
+				933041C82C12010D008DA6FC /* Model */,
+				9330417E2C11FCFF008DA6FC /* View */,
+				9330417D2C11FCFA008DA6FC /* Utils */,
+				9330417C2C11FCF4008DA6FC /* Core */,
 				9330416B2C11F3E4008DA6FC /* WODWarriorApp.swift */,
 				9330416D2C11F3E4008DA6FC /* ContentView.swift */,
 				9330416F2C11F3E4008DA6FC /* Item.swift */,
@@ -66,8 +142,167 @@
 			isa = PBXGroup;
 			children = (
 				933041742C11F3E6008DA6FC /* Preview Assets.xcassets */,
+				933041D02C120172008DA6FC /* TrainingProgramSamples.swift */,
+				933041D22C120183008DA6FC /* TrainingSectionSamples.swift */,
+				933041D42C1201A0008DA6FC /* ExerciseSamples.swift */,
+				933041D62C1201B8008DA6FC /* PreviewContainer.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9330417C2C11FCF4008DA6FC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				933041802C11FD15008DA6FC /* Model */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9330417D2C11FCFA008DA6FC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				933041832C11FD4B008DA6FC /* Constants */,
+				933041862C11FD71008DA6FC /* DatePickerView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9330417E2C11FCFF008DA6FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				933041BD2C1200A1008DA6FC /* TrainingSection */,
+				933041B32C120045008DA6FC /* Exercise */,
+				933041A52C11FF7B008DA6FC /* TrainingProgram */,
+				933041A22C11FF5D008DA6FC /* TabBar */,
+				933041962C11FE87008DA6FC /* Card */,
+				933041912C11FE3B008DA6FC /* SwipeIndicators */,
+				9330418A2C11FDCF008DA6FC /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		933041802C11FD15008DA6FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				933041812C11FD2D008DA6FC /* CardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		933041832C11FD4B008DA6FC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				933041842C11FD56008DA6FC /* SizeConstants.swift */,
+				933041882C11FDA5008DA6FC /* VideoPicker.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9330418A2C11FDCF008DA6FC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9330418B2C11FDE2008DA6FC /* AdminPageView.swift */,
+				9330418D2C11FE04008DA6FC /* HomePageView.swift */,
+				9330418F2C11FE1F008DA6FC /* ColoredProgressViewStyle.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		933041912C11FE3B008DA6FC /* SwipeIndicators */ = {
+			isa = PBXGroup;
+			children = (
+				933041922C11FE4C008DA6FC /* SwipeActionIndicatorView.swift */,
+				933041942C11FE67008DA6FC /* ImageScrollingOverlay.swift */,
+			);
+			path = SwipeIndicators;
+			sourceTree = "<group>";
+		};
+		933041962C11FE87008DA6FC /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				933041992C11FEA3008DA6FC /* Model */,
+				933041972C11FE8D008DA6FC /* Service */,
+				9330419E2C11FF12008DA6FC /* CardView.swift */,
+				933041A02C11FF46008DA6FC /* CardStackView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		933041972C11FE8D008DA6FC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9330419C2C11FEED008DA6FC /* CardService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		933041992C11FEA3008DA6FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9330419A2C11FEB3008DA6FC /* CardViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		933041A22C11FF5D008DA6FC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				933041A32C11FF6B008DA6FC /* MainTabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		933041A52C11FF7B008DA6FC /* TrainingProgram */ = {
+			isa = PBXGroup;
+			children = (
+				933041A62C11FF83008DA6FC /* Profile */,
+				933041A92C11FFAB008DA6FC /* TrainingProgramView.swift */,
+				933041AD2C11FFF3008DA6FC /* EditTrainingProgramView.swift */,
+				933041AF2C12000F008DA6FC /* NewTrainingProgramView.swift */,
+				933041B12C120031008DA6FC /* TrainingProgramInfoView.swift */,
+			);
+			path = TrainingProgram;
+			sourceTree = "<group>";
+		};
+		933041A62C11FF83008DA6FC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				933041A72C11FF90008DA6FC /* TrainingProgramProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		933041B32C120045008DA6FC /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				933041B52C12005B008DA6FC /* ExerciseView.swift */,
+				933041B72C12006F008DA6FC /* NewExerciseView.swift */,
+				933041B92C120083008DA6FC /* ExerciseDetailView.swift */,
+				933041BB2C120092008DA6FC /* ExerciseListAllView.swift */,
+			);
+			path = Exercise;
+			sourceTree = "<group>";
+		};
+		933041BD2C1200A1008DA6FC /* TrainingSection */ = {
+			isa = PBXGroup;
+			children = (
+				933041BE2C1200B1008DA6FC /* TrainingSectionView.swift */,
+				933041C02C1200C3008DA6FC /* NewTrainingSectionView.swift */,
+				933041C22C1200D6008DA6FC /* EditTrainingSectionView.swift */,
+				933041C42C1200E6008DA6FC /* TrainingSectionListView.swift */,
+				933041C62C1200F8008DA6FC /* TrainingSectionDetailsView.swift */,
+			);
+			path = TrainingSection;
+			sourceTree = "<group>";
+		};
+		933041C82C12010D008DA6FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				933041CA2C120123008DA6FC /* TrainingProgram.swift */,
+				933041CC2C120132008DA6FC /* TrainingSection.swift */,
+				933041CE2C120148008DA6FC /* Exercise.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +375,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933041D72C1201B8008DA6FC /* PreviewContainer.swift in Sources */,
+				933041952C11FE67008DA6FC /* ImageScrollingOverlay.swift in Sources */,
+				933041A42C11FF6B008DA6FC /* MainTabBarView.swift in Sources */,
+				9330419D2C11FEED008DA6FC /* CardService.swift in Sources */,
+				933041CF2C120148008DA6FC /* Exercise.swift in Sources */,
+				933041C72C1200F8008DA6FC /* TrainingSectionDetailsView.swift in Sources */,
+				933041CB2C120123008DA6FC /* TrainingProgram.swift in Sources */,
+				933041AE2C11FFF3008DA6FC /* EditTrainingProgramView.swift in Sources */,
+				933041B62C12005B008DA6FC /* ExerciseView.swift in Sources */,
+				933041B82C12006F008DA6FC /* NewExerciseView.swift in Sources */,
+				933041D32C120183008DA6FC /* TrainingSectionSamples.swift in Sources */,
+				933041C52C1200E6008DA6FC /* TrainingSectionListView.swift in Sources */,
+				933041BA2C120083008DA6FC /* ExerciseDetailView.swift in Sources */,
+				933041872C11FD71008DA6FC /* DatePickerView.swift in Sources */,
+				933041AA2C11FFAB008DA6FC /* TrainingProgramView.swift in Sources */,
+				933041CD2C120132008DA6FC /* TrainingSection.swift in Sources */,
 				9330416E2C11F3E4008DA6FC /* ContentView.swift in Sources */,
+				933041B22C120031008DA6FC /* TrainingProgramInfoView.swift in Sources */,
+				933041B02C12000F008DA6FC /* NewTrainingProgramView.swift in Sources */,
+				9330419F2C11FF12008DA6FC /* CardView.swift in Sources */,
+				933041A82C11FF90008DA6FC /* TrainingProgramProfileView.swift in Sources */,
+				933041902C11FE1F008DA6FC /* ColoredProgressViewStyle.swift in Sources */,
+				933041852C11FD56008DA6FC /* SizeConstants.swift in Sources */,
+				933041822C11FD2D008DA6FC /* CardModel.swift in Sources */,
+				933041892C11FDA5008DA6FC /* VideoPicker.swift in Sources */,
+				933041C32C1200D6008DA6FC /* EditTrainingSectionView.swift in Sources */,
+				933041A12C11FF46008DA6FC /* CardStackView.swift in Sources */,
+				933041932C11FE4C008DA6FC /* SwipeActionIndicatorView.swift in Sources */,
+				9330419B2C11FEB3008DA6FC /* CardViewModel.swift in Sources */,
+				933041C12C1200C3008DA6FC /* NewTrainingSectionView.swift in Sources */,
+				933041D12C120172008DA6FC /* TrainingProgramSamples.swift in Sources */,
 				933041702C11F3E4008DA6FC /* Item.swift in Sources */,
 				9330416C2C11F3E4008DA6FC /* WODWarriorApp.swift in Sources */,
+				9330418E2C11FE04008DA6FC /* HomePageView.swift in Sources */,
+				933041BC2C120092008DA6FC /* ExerciseListAllView.swift in Sources */,
+				9330418C2C11FDE2008DA6FC /* AdminPageView.swift in Sources */,
+				933041D52C1201A0008DA6FC /* ExerciseSamples.swift in Sources */,
+				933041BF2C1200B1008DA6FC /* TrainingSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
